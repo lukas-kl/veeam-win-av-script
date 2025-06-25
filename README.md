@@ -28,6 +28,8 @@ The script is designed for new and existing installations (add-on character)!
 10. Execute the script with administrative privileges (PowerShell).
 11. Run the script by selecting the appropriate components (multipe component selections - one after the other - are possible!)
 
+The script can be run multiple times, the script checks the presence of the rules and applies only the not existing rules and exclusions!
+
 
 ## Additional information:
 - The output file (manuscript) is located at C:\Install after the script execution
