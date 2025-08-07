@@ -10,9 +10,11 @@ Furthermore, I do not guarantee the completeness of the tests!
 The script is designed for new and existing installations (add-on character)!
 
 - The script is tested for all listed Veeam components within the script
-- The script is not tested and designed for Veeam components within a management domain (Active Directory)
 - The operating system has to be Windows Server 2022 or 2025 Standard or Datacenter (other systems are not tested)
 - The operating system language has to be English (no language pack on another language is allowed!)
+
+The script can also be used for a system that is member of an Active Directory domain (e.g. Veeam Recovery Orchestrator).
+Please keep in mind that existing GPOs might overwrite the settings applied by the script!
 
 
 ## Actions to apply the script:
